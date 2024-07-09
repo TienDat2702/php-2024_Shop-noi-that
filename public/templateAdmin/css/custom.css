@@ -1,0 +1,41 @@
+
+#example2 td span {
+  margin: 0; /* Loại bỏ lề của span */
+  display: block; /* Thay đổi từ inline thành block để ôm chặt nội dung */
+}
+#selected-images{
+  float: left;
+  display: flex;
+}
+.selected-image{
+  /* border: 1px solid #bfbfbf; */
+  padding: 10px;
+  margin: 10px 10px 0 0;
+}
+
+td p{
+  height: 100px;
+  overflow-y: scroll;
+}
+
+form.delete{
+  display: inline;
+}
+
+thead{
+ background: #f2f2f2;
+}
+
+a.nav-link.active {
+  /* text-decoration:underline; */
+}
+a.nav-link{
+  color: black;
+}
+a.nav-link:hover{
+  text-decoration:underline;
+}
+
+.navbar-nav li{
+  margin-right: 20px;
+}
