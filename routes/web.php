@@ -2,21 +2,21 @@
 
 
 
-use App\Http\Controllers\AboutController;
+use App\Http\Controllers\User\AboutController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\OrderController;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\BlogController;
+use App\Http\Controllers\User\HomeController;
+use App\Http\Controllers\User\BlogController;
 
 use App\Http\Middleware\CheckUserCart;
-use App\Http\Controllers\CartController;
-use App\Http\Controllers\CheckoutController;
-use App\Http\Controllers\ContactController;
-use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\User\CartController;
+use App\Http\Controllers\User\CheckoutController;
+use App\Http\Controllers\User\ContactController;
+use App\Http\Controllers\User\ProductsController;
 use \App\Http\Middleware\CheckRole;
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\User\UserController;
 use App\Http\Controllers\FavoriteController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
